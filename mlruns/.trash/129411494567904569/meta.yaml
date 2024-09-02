@@ -1,0 +1,13 @@
+artifact_location: mlflow-artifacts:/129411494567904569
+creation_time: 1725311333272
+experiment_id: '129411494567904569'
+last_update_time: 1725312524150
+lifecycle_stage: deleted
+name: LoanDefault_Models
+tags:
+  mlflow.note.content: This is the loan default forecasting project. This experiment
+    contains the produce models for bank loans.
+  project_name: ML OPS Loan Default
+  project_quarter: Q3-2024
+  store_dept: predict
+  team: Rodner Kallel Rigoni
