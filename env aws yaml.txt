@@ -1,5 +1,0 @@
-AWS_REGION: eu-west-3            
-ECR_REPOSITORY: mlops           
-ECS_SERVICE: mlops_catboost_service               
-ECS_CLUSTER: mlopsclusterjcr                
-ECS_TASK_DEFINITION: mlops_catboost
