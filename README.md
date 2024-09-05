@@ -17,7 +17,23 @@
 
 ## Technologies Used
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![LightFM](https://img.shields.io/badge/lightfm-%2300422e.svg?style=for-the-badge&logo=lightfm&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+
+# Dépendances du projet
+
+![Streamlit](https://img.shields.io/badge/streamlit-v1.34.0-blue)
+![Plotly](https://img.shields.io/badge/plotly-v5.22.0-blue)
+![Cufflinks](https://img.shields.io/badge/cufflinks-v0.17.3-blue)
+![Pandas](https://img.shields.io/badge/pandas-v2.2.1-blue)
+![NumPy](https://img.shields.io/badge/numpy-v1.26.4-blue)
+![Matplotlib](https://img.shields.io/badge/matplotlib-v3.8.4-blue)
+![Seaborn](https://img.shields.io/badge/seaborn-v0.13.2-blue)
+![Statsmodels](https://img.shields.io/badge/statsmodels-v0.14.2-blue)
+![Tqdm](https://img.shields.io/badge/tqdm-v4.66.4-blue)
+![SciPy](https://img.shields.io/badge/scipy-v1.13.1-blue)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-v1.5.1-blue)
+![Flask](https://img.shields.io/badge/flask-v2.1.1-blue)
+
 
 ---
 
