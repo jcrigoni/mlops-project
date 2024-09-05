@@ -39,7 +39,7 @@ def predict():
 
         else:
             return render_template(
-                "index.html", prediction_text="Make money money. Make money money moneeeeeey :)"
+                "index.html", prediction_text="Yes you can grant a loan to this client. :)"
             )
 
     else:
