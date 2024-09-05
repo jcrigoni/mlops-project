@@ -46,7 +46,7 @@ jobs:
             if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 # The third step installs the project dependencies.
 
-- name: Format
+        - name: Format
           run: |
             black app.py
 # The fourth step formats the app.py file using the black code formatter.
