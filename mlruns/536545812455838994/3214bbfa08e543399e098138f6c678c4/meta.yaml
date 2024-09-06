@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/536545812455838994/3214bbfa08e543399e098138f6c678c4/artifacts
+end_time: 1725612883972
+entry_point_name: ''
+experiment_id: '536545812455838994'
+lifecycle_stage: active
+run_id: 3214bbfa08e543399e098138f6c678c4
+run_name: loans_rf_test
+run_uuid: 3214bbfa08e543399e098138f6c678c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725612878882
+status: 3
+tags: []
+user_id: jcrig
