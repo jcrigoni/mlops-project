@@ -30,9 +30,15 @@ def Home():
 def predict():
     if request.method == "POST":
         credit_lines_outstanding = int(request.form["credit_lines_outstanding"])
-        loan_amt_outstanding = float(((request.form["loan_amt_outstanding"]) - loa_mean) / loa_std)
-        total_debt_outstanding = float(((request.form["total_debt_outstanding"]) - tdo_mean) / tdo_std)
-        income = float(((request.form["income"]) - income_mean) / income_std)
+        loan_amt_outstanding = float(request.form["loan_amt_outstanding"])
+        loan_amt_outstanding = (loan_amt_outstanding - loa_mean) / loa_std
+
+        total_debt_outstanding = float(request.form["total_debt_outstanding"])
+        total_debt_outstanding = (total_debt_outstanding - tdo_mean) / tdo_std
+
+        income = float(request.form["income"])
+        income = (income - income_mean) / income_std
+
         years_employed = int(request.form["years_employed"])
         fico_score = int(request.form["fico_score"])
         prediction = model.predict(
@@ -42,12 +48,12 @@ def predict():
         if prediction[0] == 1:
             return render_template(
                 "index.html",
-                prediction_text="Granting a loan to this client seems too risky!",
+                prediction_text="Granting a loan to this client is too risky!",
             )
 
         else:
             return render_template(
-                "index.html", prediction_text="Yes you can grant a loan to this client."
+                "index.html", prediction_text="Yes, you can grant a loan to this client."
             )
 
     else:
